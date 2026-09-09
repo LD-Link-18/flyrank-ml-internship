@@ -36,6 +36,8 @@ The model was evaluated out-of-sample on the test set.
 | Logistic Regression | 0.720 | 0.610 |
 | **Random Forest** | **0.860** | **0.650** |
 
+![Model vs Baseline Precision@50](img/precision_comparison.png)
+
 The Random Forest learned that `impressions_90d`, `content_age_days`, and `avg_position` must be balanced non-linearly. By doing so, it effectively filters out false positives (like old but stable evergreen pages) and successfully identifies the highest-priority risks.
 
 ## 5. Limitations & Honest Framing
@@ -53,9 +55,8 @@ The model's output probabilities map to a ranked queue for content editors:
 **Human Review:** A human editor must ALWAYS review the actual URL to filter out intentional seasonal decay or strict evergreen definitions before taking action.
 
 ## 7. Reproducibility
-- **Repository:** The complete code, leakage checks, and baseline logic can be found in the project repository.
+- **Repository:** The complete code, leakage checks, and baseline logic can be found in the [project repository](https://github.com/LD-Link-18/flyrank-ml-internship).
 - **Code Execution:** The work is fully reproducible by running the `work/notebooks/capstone.ipynb` notebook. The random seed was fixed at `42` across all splits and algorithms.
 
 ## Acknowledgments & Data Credit
-This research was built on the FlyRank ML Internship dataset. 
-For more information, visit [https://flyrank.ai](https://flyrank.ai)
+<a href="https://flyrank.ai" target="_blank">Built on the FlyRank ML Internship dataset</a>
