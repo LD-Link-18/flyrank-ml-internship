@@ -10,9 +10,9 @@
 ---
 
 ## 1. Introduction & Problem Statement
-For large publishers and e-commerce brands, organic search traffic is the lifeblood of acquisition. However, content naturally decays over time due to algorithm updates, fresh competitor content, and shifting search intent. 
+For large publishers and SEO agencies like FlyRank, organic search traffic is the lifeblood of client acquisition. However, content naturally decays over time due to algorithm updates, fresh competitor content, and shifting search intent. 
 
-Currently, content editors rely on rigid manual heuristics (e.g., "refresh any page older than 180 days with >5,000 impressions"). This rigid rule often wastes editorial time by flagging purely evergreen content (like dictionary definitions) while missing younger pages that are actively slipping in the SERPs. The goal of this research is to build a predictive ranking model to flag pages that have a high statistical risk of directional decline, serving as a decision-support tool for editorial prioritization.
+Currently, FlyRank content editors often have to rely on rigid manual heuristics (e.g., "refresh any page older than 180 days with >5,000 impressions") to manage massive client portfolios. This rigid rule wastes editorial time by flagging purely evergreen content while missing younger pages that are actively slipping in the SERPs. The goal of this research is to build a predictive ranking model to flag pages that have a high statistical risk of directional decline, serving as a decision-support tool for FlyRank's editorial prioritization.
 
 ## 2. Data
 The analysis was performed on an anonymized dataset comprising SEO and engagement metrics.
